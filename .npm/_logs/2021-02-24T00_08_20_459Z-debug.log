@@ -1,0 +1,373 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   '@expo/ngrok@^2.4.3' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 0a7612a9ad5b036d
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok 75ms (from cache)
+8 silly pacote range manifest for @expo/ngrok@^2.4.3 fetched in 107ms
+9 timing stage:loadCurrentTree Completed in 151ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 8ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule @expo/ngrok@2.4.3 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin 202ms (from cache)
+18 http fetch GET 200 https://registry.npmjs.org/lock 198ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/logfmt 210ms (from cache)
+20 silly pacote version manifest for @expo/ngrok-bin@2.2.8-beta.3 fetched in 236ms
+21 silly resolveWithNewModule @expo/ngrok-bin@2.2.8-beta.3 checking installable status
+22 silly pacote range manifest for lock@^0.1.2 fetched in 243ms
+23 silly resolveWithNewModule lock@0.1.4 checking installable status
+24 silly pacote range manifest for logfmt@^1.2.0 fetched in 244ms
+25 silly resolveWithNewModule logfmt@1.3.2 checking installable status
+26 http fetch GET 304 https://registry.npmjs.org/uuid 421ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/async 442ms (from cache)
+28 http fetch GET 304 https://registry.npmjs.org/request 441ms (from cache)
+29 silly pacote range manifest for uuid@^3.0.0 fetched in 449ms
+30 silly resolveWithNewModule uuid@3.4.0 checking installable status
+31 silly pacote range manifest for async@^0.9.0 fetched in 466ms
+32 silly resolveWithNewModule async@0.9.2 checking installable status
+33 silly pacote range manifest for request@^2.81.0 fetched in 463ms
+34 warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+35 silly resolveWithNewModule request@2.88.2 checking installable status
+36 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-darwin-ia32 81ms (from cache)
+37 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-darwin-x64 81ms (from cache)
+38 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-freebsd-ia32 81ms (from cache)
+39 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-freebsd-x64 81ms (from cache)
+40 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-linux-arm 82ms (from cache)
+41 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-linux-ia32 81ms (from cache)
+42 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-linux-arm64 85ms (from cache)
+43 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-linux-x64 82ms (from cache)
+44 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-sunos-x64 89ms (from cache)
+45 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-win32-ia32 89ms (from cache)
+46 silly pacote version manifest for @expo/ngrok-bin-darwin-ia32@2.2.8 fetched in 109ms
+47 silly resolveWithNewModule @expo/ngrok-bin-darwin-ia32@2.2.8 checking installable status
+48 silly pacote version manifest for @expo/ngrok-bin-darwin-x64@2.2.8 fetched in 113ms
+49 silly resolveWithNewModule @expo/ngrok-bin-darwin-x64@2.2.8 checking installable status
+50 silly pacote version manifest for @expo/ngrok-bin-freebsd-ia32@2.2.8 fetched in 114ms
+51 silly resolveWithNewModule @expo/ngrok-bin-freebsd-ia32@2.2.8 checking installable status
+52 silly pacote version manifest for @expo/ngrok-bin-freebsd-x64@2.2.8 fetched in 114ms
+53 silly resolveWithNewModule @expo/ngrok-bin-freebsd-x64@2.2.8 checking installable status
+54 silly pacote version manifest for @expo/ngrok-bin-linux-arm@2.2.8 fetched in 115ms
+55 silly resolveWithNewModule @expo/ngrok-bin-linux-arm@2.2.8 checking installable status
+56 silly pacote version manifest for @expo/ngrok-bin-linux-ia32@2.2.8 fetched in 113ms
+57 silly resolveWithNewModule @expo/ngrok-bin-linux-ia32@2.2.8 checking installable status
+58 silly pacote version manifest for @expo/ngrok-bin-linux-arm64@2.2.8 fetched in 116ms
+59 silly resolveWithNewModule @expo/ngrok-bin-linux-arm64@2.2.8 checking installable status
+60 silly pacote version manifest for @expo/ngrok-bin-linux-x64@2.2.8 fetched in 115ms
+61 silly resolveWithNewModule @expo/ngrok-bin-linux-x64@2.2.8 checking installable status
+62 silly pacote version manifest for @expo/ngrok-bin-sunos-x64@2.2.8 fetched in 119ms
+63 silly resolveWithNewModule @expo/ngrok-bin-sunos-x64@2.2.8 checking installable status
+64 silly pacote version manifest for @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 fetched in 120ms
+65 silly resolveWithNewModule @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 checking installable status
+66 http fetch GET 200 https://registry.npmjs.org/@expo%2fngrok-bin-win32-x64 10ms (from cache)
+67 silly pacote version manifest for @expo/ngrok-bin-win32-x64@2.2.8-beta.1 fetched in 15ms
+68 silly resolveWithNewModule @expo/ngrok-bin-win32-x64@2.2.8-beta.1 checking installable status
+69 http fetch GET 304 https://registry.npmjs.org/split 77ms (from cache)
+70 silly pacote range manifest for split@0.2.x fetched in 84ms
+71 silly resolveWithNewModule split@0.2.10 checking installable status
+72 http fetch GET 304 https://registry.npmjs.org/through 87ms (from cache)
+73 silly pacote range manifest for through@2.3.x fetched in 91ms
+74 silly resolveWithNewModule through@2.3.8 checking installable status
+75 http fetch GET 304 https://registry.npmjs.org/aws-sign2 139ms (from cache)
+76 silly pacote range manifest for aws-sign2@~0.7.0 fetched in 144ms
+77 silly resolveWithNewModule aws-sign2@0.7.0 checking installable status
+78 http fetch GET 304 https://registry.npmjs.org/aws4 146ms (from cache)
+79 http fetch GET 304 https://registry.npmjs.org/combined-stream 149ms (from cache)
+80 silly pacote range manifest for aws4@^1.8.0 fetched in 156ms
+81 silly resolveWithNewModule aws4@1.11.0 checking installable status
+82 silly pacote range manifest for combined-stream@~1.0.6 fetched in 163ms
+83 silly resolveWithNewModule combined-stream@1.0.8 checking installable status
+84 http fetch GET 304 https://registry.npmjs.org/extend 301ms (from cache)
+85 http fetch GET 304 https://registry.npmjs.org/caseless 305ms (from cache)
+86 http fetch GET 304 https://registry.npmjs.org/http-signature 303ms (from cache)
+87 http fetch GET 304 https://registry.npmjs.org/is-typedarray 304ms (from cache)
+88 http fetch GET 304 https://registry.npmjs.org/forever-agent 315ms (from cache)
+89 http fetch GET 304 https://registry.npmjs.org/form-data 317ms (from cache)
+90 silly pacote range manifest for extend@~3.0.2 fetched in 323ms
+91 silly resolveWithNewModule extend@3.0.2 checking installable status
+92 silly pacote range manifest for caseless@~0.12.0 fetched in 329ms
+93 silly resolveWithNewModule caseless@0.12.0 checking installable status
+94 silly pacote range manifest for http-signature@~1.2.0 fetched in 335ms
+95 silly resolveWithNewModule http-signature@1.2.0 checking installable status
+96 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 339ms
+97 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/har-validator 350ms (from cache)
+99 http fetch GET 304 https://registry.npmjs.org/isstream 214ms (from cache)
+100 silly pacote range manifest for forever-agent@~0.6.1 fetched in 363ms
+101 silly resolveWithNewModule forever-agent@0.6.1 checking installable status
+102 silly pacote range manifest for form-data@~2.3.2 fetched in 371ms
+103 silly resolveWithNewModule form-data@2.3.3 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/json-stringify-safe 242ms (from cache)
+105 silly pacote range manifest for har-validator@~5.1.3 fetched in 396ms
+106 warn deprecated har-validator@5.1.5: this library is no longer supported
+107 silly resolveWithNewModule har-validator@5.1.5 checking installable status
+108 silly pacote range manifest for isstream@~0.1.2 fetched in 258ms
+109 silly resolveWithNewModule isstream@0.1.2 checking installable status
+110 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 277ms
+111 silly resolveWithNewModule json-stringify-safe@5.0.1 checking installable status
+112 http fetch GET 304 https://registry.npmjs.org/mime-types 277ms (from cache)
+113 silly pacote range manifest for mime-types@~2.1.19 fetched in 305ms
+114 silly resolveWithNewModule mime-types@2.1.29 checking installable status
+115 http fetch GET 304 https://registry.npmjs.org/oauth-sign 220ms (from cache)
+116 http fetch GET 304 https://registry.npmjs.org/performance-now 227ms (from cache)
+117 silly pacote range manifest for oauth-sign@~0.9.0 fetched in 235ms
+118 silly resolveWithNewModule oauth-sign@0.9.0 checking installable status
+119 http fetch GET 304 https://registry.npmjs.org/safe-buffer 217ms (from cache)
+120 http fetch GET 304 https://registry.npmjs.org/tough-cookie 204ms (from cache)
+121 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 197ms (from cache)
+122 silly pacote range manifest for performance-now@^2.1.0 fetched in 249ms
+123 silly resolveWithNewModule performance-now@2.1.0 checking installable status
+124 http fetch GET 304 https://registry.npmjs.org/qs 233ms (from cache)
+125 silly pacote range manifest for safe-buffer@^5.1.2 fetched in 235ms
+126 silly resolveWithNewModule safe-buffer@5.2.1 checking installable status
+127 silly pacote range manifest for tough-cookie@~2.5.0 fetched in 223ms
+128 silly resolveWithNewModule tough-cookie@2.5.0 checking installable status
+129 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 218ms
+130 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+131 silly pacote range manifest for qs@~6.5.2 fetched in 248ms
+132 silly resolveWithNewModule qs@6.5.2 checking installable status
+133 http fetch GET 304 https://registry.npmjs.org/delayed-stream 60ms (from cache)
+134 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 64ms
+135 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+136 http fetch GET 304 https://registry.npmjs.org/asynckit 76ms (from cache)
+137 silly pacote range manifest for asynckit@^0.4.0 fetched in 80ms
+138 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+139 http fetch GET 304 https://registry.npmjs.org/mime-db 71ms (from cache)
+140 silly pacote version manifest for mime-db@1.46.0 fetched in 79ms
+141 silly resolveWithNewModule mime-db@1.46.0 checking installable status
+142 http fetch GET 304 https://registry.npmjs.org/har-schema 79ms (from cache)
+143 silly pacote range manifest for har-schema@^2.0.0 fetched in 83ms
+144 silly resolveWithNewModule har-schema@2.0.0 checking installable status
+145 http fetch GET 304 https://registry.npmjs.org/ajv 98ms (from cache)
+146 silly pacote range manifest for ajv@^6.12.3 fetched in 119ms
+147 silly resolveWithNewModule ajv@6.12.6 checking installable status
+148 http fetch GET 304 https://registry.npmjs.org/fast-deep-equal 95ms (from cache)
+149 silly pacote range manifest for fast-deep-equal@^3.1.1 fetched in 104ms
+150 silly resolveWithNewModule fast-deep-equal@3.1.3 checking installable status
+151 http fetch GET 304 https://registry.npmjs.org/json-schema-traverse 104ms (from cache)
+152 http fetch GET 304 https://registry.npmjs.org/uri-js 104ms (from cache)
+153 http fetch GET 304 https://registry.npmjs.org/fast-json-stable-stringify 110ms (from cache)
+154 silly pacote range manifest for json-schema-traverse@^0.4.1 fetched in 110ms
+155 silly resolveWithNewModule json-schema-traverse@0.4.1 checking installable status
+156 silly pacote range manifest for uri-js@^4.2.2 fetched in 112ms
+157 silly resolveWithNewModule uri-js@4.4.1 checking installable status
+158 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 119ms
+159 silly resolveWithNewModule fast-json-stable-stringify@2.1.0 checking installable status
+160 http fetch GET 304 https://registry.npmjs.org/punycode 59ms (from cache)
+161 silly pacote range manifest for punycode@^2.1.0 fetched in 64ms
+162 silly resolveWithNewModule punycode@2.1.1 checking installable status
+163 http fetch GET 304 https://registry.npmjs.org/jsprim 79ms (from cache)
+164 http fetch GET 304 https://registry.npmjs.org/assert-plus 83ms (from cache)
+165 silly pacote range manifest for jsprim@^1.2.2 fetched in 85ms
+166 silly resolveWithNewModule jsprim@1.4.1 checking installable status
+167 silly pacote range manifest for assert-plus@^1.0.0 fetched in 88ms
+168 silly resolveWithNewModule assert-plus@1.0.0 checking installable status
+169 http fetch GET 304 https://registry.npmjs.org/sshpk 93ms (from cache)
+170 silly pacote range manifest for sshpk@^1.7.0 fetched in 98ms
+171 silly resolveWithNewModule sshpk@1.16.1 checking installable status
+172 http fetch GET 304 https://registry.npmjs.org/extsprintf 73ms (from cache)
+173 silly pacote version manifest for extsprintf@1.3.0 fetched in 77ms
+174 silly resolveWithNewModule extsprintf@1.3.0 checking installable status
+175 http fetch GET 304 https://registry.npmjs.org/verror 76ms (from cache)
+176 silly pacote version manifest for verror@1.10.0 fetched in 79ms
+177 silly resolveWithNewModule verror@1.10.0 checking installable status
+178 http fetch GET 304 https://registry.npmjs.org/json-schema 82ms (from cache)
+179 silly pacote version manifest for json-schema@0.2.3 fetched in 86ms
+180 silly resolveWithNewModule json-schema@0.2.3 checking installable status
+181 http fetch GET 304 https://registry.npmjs.org/core-util-is 54ms (from cache)
+182 silly pacote version manifest for core-util-is@1.0.2 fetched in 57ms
+183 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+184 http fetch GET 304 https://registry.npmjs.org/asn1 164ms (from cache)
+185 silly pacote range manifest for asn1@~0.2.3 fetched in 178ms
+186 silly resolveWithNewModule asn1@0.2.4 checking installable status
+187 http fetch GET 304 https://registry.npmjs.org/dashdash 187ms (from cache)
+188 http fetch GET 304 https://registry.npmjs.org/jsbn 194ms (from cache)
+189 http fetch GET 304 https://registry.npmjs.org/getpass 204ms (from cache)
+190 http fetch GET 304 https://registry.npmjs.org/ecc-jsbn 201ms (from cache)
+191 http fetch GET 304 https://registry.npmjs.org/bcrypt-pbkdf 200ms (from cache)
+192 silly pacote range manifest for dashdash@^1.12.0 fetched in 212ms
+193 silly resolveWithNewModule dashdash@1.14.1 checking installable status
+194 http fetch GET 304 https://registry.npmjs.org/tweetnacl 211ms (from cache)
+195 silly pacote range manifest for jsbn@~0.1.0 fetched in 216ms
+196 silly resolveWithNewModule jsbn@0.1.1 checking installable status
+197 http fetch GET 304 https://registry.npmjs.org/safer-buffer 221ms (from cache)
+198 silly pacote range manifest for getpass@^0.1.1 fetched in 225ms
+199 silly resolveWithNewModule getpass@0.1.7 checking installable status
+200 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 221ms
+201 silly resolveWithNewModule ecc-jsbn@0.1.2 checking installable status
+202 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 220ms
+203 silly resolveWithNewModule bcrypt-pbkdf@1.0.2 checking installable status
+204 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 225ms
+205 silly resolveWithNewModule tweetnacl@0.14.5 checking installable status
+206 silly pacote range manifest for safer-buffer@^2.0.2 fetched in 231ms
+207 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+208 http fetch GET 304 https://registry.npmjs.org/psl 59ms (from cache)
+209 silly pacote range manifest for psl@^1.1.28 fetched in 63ms
+210 silly resolveWithNewModule psl@1.8.0 checking installable status
+211 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2577ms
+212 timing stage:loadIdealTree Completed in 2649ms
+213 silly currentTree lib
+214 silly idealTree lib
+214 silly idealTree └─┬ @expo/ngrok@2.4.3
+214 silly idealTree   ├── @expo/ngrok-bin-darwin-ia32@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-darwin-x64@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-freebsd-ia32@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-freebsd-x64@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-linux-arm@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-linux-arm64@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-linux-ia32@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-linux-x64@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-sunos-x64@2.2.8
+214 silly idealTree   ├── @expo/ngrok-bin-win32-ia32@2.2.8-beta.1
+214 silly idealTree   ├── @expo/ngrok-bin-win32-x64@2.2.8-beta.1
+214 silly idealTree   ├── @expo/ngrok-bin@2.2.8-beta.3
+214 silly idealTree   ├── ajv@6.12.6
+214 silly idealTree   ├── asn1@0.2.4
+214 silly idealTree   ├── assert-plus@1.0.0
+214 silly idealTree   ├── async@0.9.2
+214 silly idealTree   ├── asynckit@0.4.0
+214 silly idealTree   ├── aws-sign2@0.7.0
+214 silly idealTree   ├── aws4@1.11.0
+214 silly idealTree   ├── bcrypt-pbkdf@1.0.2
+214 silly idealTree   ├── caseless@0.12.0
+214 silly idealTree   ├── combined-stream@1.0.8
+214 silly idealTree   ├── core-util-is@1.0.2
+214 silly idealTree   ├── dashdash@1.14.1
+214 silly idealTree   ├── delayed-stream@1.0.0
+214 silly idealTree   ├── ecc-jsbn@0.1.2
+214 silly idealTree   ├── extend@3.0.2
+214 silly idealTree   ├── extsprintf@1.3.0
+214 silly idealTree   ├── fast-deep-equal@3.1.3
+214 silly idealTree   ├── fast-json-stable-stringify@2.1.0
+214 silly idealTree   ├── forever-agent@0.6.1
+214 silly idealTree   ├── form-data@2.3.3
+214 silly idealTree   ├── getpass@0.1.7
+214 silly idealTree   ├── har-schema@2.0.0
+214 silly idealTree   ├── har-validator@5.1.5
+214 silly idealTree   ├── http-signature@1.2.0
+214 silly idealTree   ├── is-typedarray@1.0.0
+214 silly idealTree   ├── isstream@0.1.2
+214 silly idealTree   ├── jsbn@0.1.1
+214 silly idealTree   ├── json-schema-traverse@0.4.1
+214 silly idealTree   ├── json-schema@0.2.3
+214 silly idealTree   ├── json-stringify-safe@5.0.1
+214 silly idealTree   ├── jsprim@1.4.1
+214 silly idealTree   ├── lock@0.1.4
+214 silly idealTree   ├── logfmt@1.3.2
+214 silly idealTree   ├── mime-db@1.46.0
+214 silly idealTree   ├── mime-types@2.1.29
+214 silly idealTree   ├── oauth-sign@0.9.0
+214 silly idealTree   ├── performance-now@2.1.0
+214 silly idealTree   ├── psl@1.8.0
+214 silly idealTree   ├── punycode@2.1.1
+214 silly idealTree   ├── qs@6.5.2
+214 silly idealTree   ├── request@2.88.2
+214 silly idealTree   ├── safe-buffer@5.2.1
+214 silly idealTree   ├── safer-buffer@2.1.2
+214 silly idealTree   ├── split@0.2.10
+214 silly idealTree   ├── sshpk@1.16.1
+214 silly idealTree   ├── through@2.3.8
+214 silly idealTree   ├── tough-cookie@2.5.0
+214 silly idealTree   ├── tunnel-agent@0.6.0
+214 silly idealTree   ├── tweetnacl@0.14.5
+214 silly idealTree   ├── uri-js@4.4.1
+214 silly idealTree   ├── uuid@3.4.0
+214 silly idealTree   └── verror@1.10.0
+215 silly install generateActionsToTake
+216 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+217 timing stage:rollbackFailedOptional Completed in 2ms
+218 timing stage:runTopLevelLifecycles Completed in 2844ms
+219 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-ia32@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-darwin-ia32):
+220 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-ia32@2.2.8: wanted {"os":"darwin","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+221 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+221 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  ia32
+221 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+221 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+222 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-x64@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-darwin-x64):
+223 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-x64@2.2.8: wanted {"os":"darwin","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+224 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+224 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  x64
+224 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+224 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+225 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-ia32@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-freebsd-ia32):
+226 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-ia32@2.2.8: wanted {"os":"freebsd","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+227 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    freebsd
+227 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  ia32
+227 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+227 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+228 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-x64@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-freebsd-x64):
+229 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-x64@2.2.8: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+230 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    freebsd
+230 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  x64
+230 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+230 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+231 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-linux-arm):
+232 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm@2.2.8: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+233 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    linux
+233 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  arm
+233 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+233 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+234 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-ia32@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-linux-ia32):
+235 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-ia32@2.2.8: wanted {"os":"linux","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+236 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    linux
+236 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  ia32
+236 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+236 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+237 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm64@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-linux-arm64):
+238 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm64@2.2.8: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+239 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    linux
+239 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  arm64
+239 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+239 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+240 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-sunos-x64@2.2.8 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-sunos-x64):
+241 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-sunos-x64@2.2.8: wanted {"os":"sunos","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+242 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    sunos
+242 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  x64
+242 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+242 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+243 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-win32-ia32):
+244 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-win32-ia32@2.2.8-beta.1: wanted {"os":"win32","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+245 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    win32
+245 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  ia32
+245 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+245 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+246 warn optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-win32-x64@2.2.8-beta.1 (node_modules/@expo/ngrok/node_modules/@expo/ngrok-bin/node_modules/@expo/ngrok-bin-win32-x64):
+247 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-win32-x64@2.2.8-beta.1: wanted {"os":"win32","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+248 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    win32
+248 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  x64
+248 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   linux
+248 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+249 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+250 verbose cwd /home/howard/sessions-080724-mark3a
+251 verbose Linux 5.4.72-microsoft-standard-WSL2
+252 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "--global" "@expo/ngrok@^2.4.3"
+253 verbose node v10.19.0
+254 verbose npm  v6.14.4
+255 error code EACCES
+256 error syscall access
+257 error path /usr/local/lib/node_modules
+258 error errno -13
+259 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+259 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+259 error   stack:
+259 error    'Error: EACCES: permission denied, access \'/usr/local/lib/node_modules\'',
+259 error   errno: -13,
+259 error   code: 'EACCES',
+259 error   syscall: 'access',
+259 error   path: '/usr/local/lib/node_modules' }
+260 error The operation was rejected by your operating system.
+260 error It is likely you do not have the permissions to access this file as the current user
+260 error
+260 error If you believe this might be a permissions issue, please double-check the
+260 error permissions of the file and its containing directories, or try running
+260 error the command again as root/Administrator.
+261 verbose exit [ -13, true ]

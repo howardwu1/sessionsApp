@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'yarn@1.22.6' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 89a464e5ef6eef30
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/yarn 368ms
+8 http fetch GET 200 https://registry.npmjs.org/yarn/-/yarn-1.22.6.tgz 804ms
+9 silly pacote version manifest for yarn@1.22.6 fetched in 1233ms
+10 timing stage:loadCurrentTree Completed in 1304ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 5ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule yarn@1.22.6 checking installable status
+18 silly removeObsoleteDep removing yarn@1.22.10 from the tree as its been replaced by a newer version or is no longer required
+19 http fetch GET 304 https://registry.npmjs.org/chalk 352ms (from cache)
+20 http fetch GET 304 https://registry.npmjs.org/cli-table3 353ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/camelcase 367ms (from cache)
+22 http fetch GET 304 https://registry.npmjs.org/bytes 375ms (from cache)
+23 http fetch GET 304 https://registry.npmjs.org/deep-equal 367ms (from cache)
+24 silly pacote range manifest for chalk@^2.1.0 fetched in 398ms
+25 silly resolveWithNewModule chalk@2.4.2 checking installable status
+26 http fetch GET 304 https://registry.npmjs.org/babel-runtime 417ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/debug 394ms (from cache)
+28 silly pacote range manifest for camelcase@^4.0.0 fetched in 421ms
+29 silly resolveWithNewModule camelcase@4.1.0 checking installable status
+30 silly pacote range manifest for deep-equal@^1.0.1 fetched in 415ms
+31 silly resolveWithNewModule deep-equal@1.1.1 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/commander 430ms (from cache)
+33 silly pacote range manifest for babel-runtime@^6.26.0 fetched in 456ms
+34 silly resolveWithNewModule babel-runtime@6.26.0 checking installable status
+35 silly pacote range manifest for debug@^3.0.0 fetched in 438ms
+36 silly resolveWithNewModule debug@3.2.7 checking installable status
+37 silly pacote range manifest for commander@^2.9.0 fetched in 462ms
+38 silly resolveWithNewModule commander@2.20.3 checking installable status
+39 http fetch GET 200 https://registry.npmjs.org/detect-indent 90ms
+40 verbose stack Error: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg== integrity checksum failed when using sha512: wanted sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg== but got sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==. (0 bytes)
+40 verbose stack     at IntegrityStream.[_onEnd] (/usr/share/nodejs/ssri/index.js:86:19)
+40 verbose stack     at IntegrityStream.emit (/usr/share/nodejs/ssri/index.js:59:35)
+40 verbose stack     at IntegrityStream.[maybeEmitEnd] (/usr/share/nodejs/ssri/node_modules/minipass/index.js:350:12)
+40 verbose stack     at IntegrityStream.end (/usr/share/nodejs/ssri/node_modules/minipass/index.js:230:27)
+40 verbose stack     at PassThrough.onend (_stream_readable.js:672:10)
+40 verbose stack     at Object.onceWrapper (events.js:286:20)
+40 verbose stack     at PassThrough.emit (events.js:198:13)
+40 verbose stack     at endReadableNT (_stream_readable.js:1145:12)
+40 verbose stack     at process._tickCallback (internal/process/next_tick.js:63:19)
+41 verbose cwd /home/howard
+42 verbose Linux 5.4.72-microsoft-standard-WSL2
+43 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "yarn@1.22.6"
+44 verbose node v10.19.0
+45 verbose npm  v6.14.4
+46 error code EINTEGRITY
+47 error sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg== integrity checksum failed when using sha512: wanted sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg== but got sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==. (0 bytes)
+48 verbose exit [ 1, true ]

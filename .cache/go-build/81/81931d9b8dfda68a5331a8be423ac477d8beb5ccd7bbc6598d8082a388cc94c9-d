@@ -1,0 +1,3 @@
+./main.go
+./main_integration_test.go
+./main_test.go

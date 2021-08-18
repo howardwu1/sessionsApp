@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/howard/.nvm/versions/node/v12.18.1/bin/node',
+1 verbose cli   '/home/howard/.nvm/versions/node/v12.18.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '/aws-sdk/dist/aws-sdk-react-native'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 7d2b0344c34aa952
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for file:/aws-sdk/dist/aws-sdk-react-native Could not install from "../../../aws-sdk/dist/aws-sdk-react-native" as it does not contain a package.json file.
+8 timing stage:rollbackFailedOptional Completed in 1ms
+9 timing stage:runTopLevelLifecycles Completed in 5216ms
+10 verbose stack Error: ENOENT: no such file or directory, open '/aws-sdk/dist/aws-sdk-react-native/package.json'
+11 verbose cwd /home/howard/sessions-080724-mark3a
+12 verbose Linux 5.4.72-microsoft-standard-WSL2
+13 verbose argv "/home/howard/.nvm/versions/node/v12.18.1/bin/node" "/home/howard/.nvm/versions/node/v12.18.1/bin/npm" "install" "/aws-sdk/dist/aws-sdk-react-native"
+14 verbose node v12.18.1
+15 verbose npm  v6.14.5
+16 error code ENOLOCAL
+17 error Could not install from "../../../aws-sdk/dist/aws-sdk-react-native" as it does not contain a package.json file.
+18 verbose exit [ 1, true ]

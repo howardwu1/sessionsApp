@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/howard/go'
+let g:netrw_dirhist_4='/home/howard/go/src'
+let g:netrw_dirhist_3='/home/howard/googletokenjwt'
+let g:netrw_dirhist_2='/home/howard/sessions-080724-mark3a/utils'
+let g:netrw_dirhist_1='/home/howard/sessions-080724-mark3a/component'
