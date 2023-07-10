@@ -14,7 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	"github.com/howardwu1/sessionsApp/howardtest/creds"
+	"github.com/howardwu1/sessionsApp"
 )
 
 type Record struct{
